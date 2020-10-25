@@ -189,16 +189,16 @@ const Projects = () => {
             htmlLogo: htmlLogo,
             cssLogo: cssLogo,
         },
-
-
     ]
+
+
     return (
 
         <div className="container">
 
             <h1 className="text-center py-5 text-white">MY PROJECTS : {fakeData.length}</h1>
 
-            <div className="row" id="my-work">
+            <div className="row mb-5" id="my-work">
                 {
                     fakeData.map(project => <Project project={project}></Project>)
                 }
