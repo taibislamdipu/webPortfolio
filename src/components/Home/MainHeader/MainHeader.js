@@ -2,8 +2,14 @@ import React from 'react';
 import './MainHeader.css'
 import image from '../../../images/taib-islam-dipu.png';
 import Typical from 'react-typical';
+import { useSpring, animated } from 'react-spring'
+
+
 
 const MainHeader = () => {
+
+    const props = useSpring({ opacity: 1, from: { opacity: 0 } })
+
 
     return (
 
@@ -11,6 +17,8 @@ const MainHeader = () => {
             <div className="d-flex" style={{ height: 700 }}>
                 <div className="d-flex align-self-center">
                     <div className="col-md-8">
+                        {/* <animated.h1 style={props}>HELLO, I'M</animated.h1>
+                        <animated.div style={props}>I will fade in</animated.div> */}
                         <h4 className="text-secondary">HELLO, I'M</h4>
                         <h1>TAIB ISLAM DIPU</h1>
                         <p className="text-secondary">
