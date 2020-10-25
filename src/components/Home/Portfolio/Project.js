@@ -26,8 +26,8 @@ const Project = ({ project }) => {
                         <img src={materialuiLogo} className="ml-1" alt="" style={{ height: 50 }} />
                     </div>
                     <div class="card-footer d-flex">
-                        <a href={live}><button className="btn btn-secondary mr-2">Live</button></a>
-                        <a href={repo}><button className="btn btn-secondary mr-2">GitHub</button></a>
+                        <a href={live} target="_blank"><button className="btn btn-secondary mr-2">Live</button></a>
+                        <a href={repo} target="_blank"><button className="btn btn-secondary mr-2">GitHub</button></a>
                     </div>
                 </div>
             </div>

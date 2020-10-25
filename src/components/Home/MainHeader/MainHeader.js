@@ -28,7 +28,7 @@ const MainHeader = () => {
                                 ]}
                             />
                         </p>
-                        <button className="btn btn-secondary my-4">MY WORK</button>
+                        <a href="#my-work"><button className="btn btn-secondary my-4" >MY WORK</button></a>
                     </div>
                     <div className="col-md-4" >
 

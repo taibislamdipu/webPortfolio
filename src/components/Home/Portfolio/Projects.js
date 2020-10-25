@@ -67,6 +67,32 @@ const Projects = () => {
             herokuLogo: herokuLogo,
         },
         {
+            name: 'demo projects3',
+            image: reactUdemy,
+            repo: 'https://github.com/taibislamdipu/react-udemy-app',
+            live: 'https://react-udemy-app.netlify.app/',
+            reactLogo: reactLogo,
+            apiLogo: apiLogo,
+        },
+        {
+            name: 'demo projects3',
+            image: reactSocialBuddy,
+            repo: 'https://github.com/taibislamdipu/react-social-buddy',
+            live: 'https://react-social-buddy-app.netlify.app/',
+            reactLogo: reactLogo,
+            materialuiLogo: materialuiLogo,
+            apiLogo: apiLogo,
+        },
+        {
+            name: 'demo projects3',
+            image: ultraNation,
+            repo: 'https://github.com/taibislamdipu/react-ultra-nation-v2',
+            live: 'https://react-ultra-nation-v2.netlify.app/',
+            reactLogo: reactLogo,
+            materialuiLogo: materialuiLogo,
+            apiLogo: apiLogo,
+        },
+        {
             name: 'webportfolio',
             image: webportfolio,
             repo: 'https://github.com/taibislamdipu/web-portfolio',
@@ -163,32 +189,7 @@ const Projects = () => {
             htmlLogo: htmlLogo,
             cssLogo: cssLogo,
         },
-        {
-            name: 'demo projects3',
-            image: reactUdemy,
-            repo: 'https://github.com/taibislamdipu/react-udemy-app',
-            live: 'https://react-udemy-app.netlify.app/',
-            reactLogo: reactLogo,
-            apiLogo: apiLogo,
-        },
-        {
-            name: 'demo projects3',
-            image: reactSocialBuddy,
-            repo: 'https://github.com/taibislamdipu/react-social-buddy',
-            live: 'https://react-social-buddy-app.netlify.app/',
-            reactLogo: reactLogo,
-            materialuiLogo: materialuiLogo,
-            apiLogo: apiLogo,
-        },
-        {
-            name: 'demo projects3',
-            image: ultraNation,
-            repo: 'https://github.com/taibislamdipu/react-ultra-nation-v2',
-            live: 'https://react-ultra-nation-v2.netlify.app/',
-            reactLogo: reactLogo,
-            materialuiLogo: materialuiLogo,
-            apiLogo: apiLogo,
-        },
+
 
     ]
     return (
@@ -197,7 +198,7 @@ const Projects = () => {
 
             <h1 className="text-center py-5 text-white">MY PROJECTS : {fakeData.length}</h1>
 
-            <div className="row">
+            <div className="row" id="my-work">
                 {
                     fakeData.map(project => <Project project={project}></Project>)
                 }
