@@ -9,8 +9,8 @@ const About = () => {
 
             <div className="container d-flex" style={{ height: 400 }}>
                 <div className="d-flex align-self-center">
-                    <div className="col-md-4">
-                        <h3 className="text-white">Expertise</h3>
+                    <div className="col-md-2">
+                        <h3 className="text-secondary">Expertise</h3>
                         <ul className="text-white">
                             <li>React.js</li>
                             <li>JavaScript </li>
@@ -20,13 +20,23 @@ const About = () => {
                             <li>SEO</li>
                             <li>Critical Thinking</li>
                         </ul>
-                        <a href="https://tinyurl.com/y4cxsdxf"><button className="btn btn-secondary">MY CV</button></a>
+                        <a href="https://tinyurl.com/y4cxsdxf" target="_blank"><button className="btn btn-secondary">MY RESUME</button></a>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-2">
+                        <h3 className="text-secondary">Comfortable</h3>
+                        <ul className="text-white">
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MongoDB</li>
+                            <li>Firebase</li>
+                            <li>Material-UI</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div className="col-md-8">
                         <h3 className="text-white">Howdy!</h3>
                         <p className="text-white">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam est, officia consequatur quae nesciunt quod, eius quis totam alias quia,
-                            veritatis eaque fugit explicabo minus soluta odit exercitationem. Minus, iure?
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe a quisquam quidem cum ut, fugit perspiciatis quia qui, nihil iste maiores iusto dolore officia amet magni minus eos excepturi cupiditate?
                         </p>
                     </div>
                 </div>
