@@ -1,5 +1,14 @@
 
 
-.aboutStyle{
+/* .aboutStyle{
     background-color: #2B2B2B;
+} */
+
+.about-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.first-section{
+    margin-top: 200px;
 }

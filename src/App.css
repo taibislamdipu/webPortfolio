@@ -1,6 +1,14 @@
 
 
-.app{
-  background-color: #202020;
-  font-family: 'Roboto', sans-serif;
+.app, p, li, h1{
+  /* background-color: #202020; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.customYellowColor{
+  color: #FFCD2A;
+}
+
+body{
+  background-color: #F9F9F8;
 }

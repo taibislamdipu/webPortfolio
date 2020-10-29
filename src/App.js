@@ -1,18 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import Home from './components/Home/Home/Home';
-import Loader from 'react-loader-spinner'
+import NoMatch from './components/NoMatch/NoMatch';
+import Blogs from './components/Blog/Blogs';
+import Footer from './components/Home/Footer/Footer';
+import Contact from './components/Home/Contact/Contact';
+import About from './components/Home/About/About';
 
-function App() {
+const App = () => {
   return (
+    <Router>
+      <Switch>
+ 
+        <Route exact path="/" >
+          <Home></Home>
+        </Route>
+        
+        <Route path="/home" >
+          <Home></Home>
+        </Route>
 
-    <div className="app">
+        <Route path="/blogs" >
+          <Blogs></Blogs>
+          <Footer></Footer>
+        </Route>
 
-      <Home></Home>
+        <Route path="/about" >
+          <About></About>
+        </Route>
 
-    </div>
+        <Route path="/contact" >
+          <Contact></Contact>
+        </Route>
 
+        <Route path="*">
+          <NoMatch />
+        </Route>
+
+      </Switch>
+    </Router>
   );
-}
-
+};
+ 
 export default App;

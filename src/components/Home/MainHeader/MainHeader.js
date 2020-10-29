@@ -16,32 +16,44 @@ const MainHeader = () => {
         <div className="container">
             <div className="d-flex" style={{ height: 700 }}>
                 <div className="d-flex align-self-center">
-                    <div className="col-md-8">
-                        {/* <animated.h1 style={props}>HELLO, I'M</animated.h1>
-                        <animated.div style={props}>I will fade in</animated.div> */}
+                    <div className="row">
+                        <div className="col-md-10">
+
                         <h4 className="text-secondary">HELLO, I'M</h4>
-                        <h1>TAIB ISLAM DIPU</h1>
+                            <h1 style={{ fontWeight: 700 }}>TAIB ISLAM</h1>
                         <p className="text-secondary">
                             {' '}
                             <Typical
                                 loop={Infinity}
                                 wrapper='b'
                                 steps={[
-                                    'Web Application Developer',
+                                    'Font-End Web Developer',
                                     1000,
-                                    'Expertise in JavaScript Application',
+                                    'Expert in developing',
                                     1000,
-                                    'Comfortable with MERN Applications',
+                                    'Single page application',
                                     1000,
+                                    'Using...',
+                                    1000,
+                                    'React',
+                                    1000,
+                                    'Node.js',
+                                    1000,
+                                    'Express.js',
+                                    1000,
+                                    'MongoDB',
+                                    1000,
+                                    'And more...',
+                                    1000,
+
                                 ]}
                             />
                         </p>
-                        <a href="#my-work"><button className="btn btn-secondary my-4" >MY WORK</button></a>
+                            <a class="btn btn-secondary my-4  btn-lg" href="https://drive.google.com/uc?export=download&id=1l5W9CBDxtmvijn9zlnaX2mopY3PAWh2G" target="_blank">DOWNLOAD RESUME</a>
                     </div>
-                    <div className="col-md-4" >
-
-                        <img src={image} alt="" style={{ height: 300 }} className="rounded-circle" />
-
+                        <div className="col-md-2" >
+                            <img src={image} alt="" style={{ height: 300 }} className="rounded-circle" />
+                        </div>
                     </div>
                 </div>
             </div>

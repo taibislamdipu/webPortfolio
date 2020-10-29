@@ -9,14 +9,12 @@ import './Home.css'
 
 const Home = () => {
 
-
-
     return (
         <div>
             <Header></Header>
-            <About></About>
+            {/* <About></About> */}
             <Projects></Projects>
-            <Contact></Contact>
+            {/* <Contact></Contact> */}
             <Footer></Footer>
         </div>
     );

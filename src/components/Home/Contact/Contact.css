@@ -1,20 +1,10 @@
 
 
-.icon{
-    color: #fff;
-    
-}
-
-.my-container{
+.contact-container{
     margin-top: 100px;
 }
 
-.my-container-item{
-    color: red;
-    margin-top: 200px;
-}
-
-.social-icon:hover{
-    box-shadow: 0px 0px 22px 0px rgba(242,242,242,1);
-    transition: .3s ease;
+.contact-form{
+    border: 1px solid lightgrey;
+    padding: 50px;
 }
