@@ -12,7 +12,7 @@ import MyForm from './ContactForm';
 const Contact = () => {
     return (
         <div style={{ backgroundColor: '#F9F9F8' }}>
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
 
             <div className="container contact-container">
                 <div className="row">

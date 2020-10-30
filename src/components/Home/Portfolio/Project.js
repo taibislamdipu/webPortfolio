@@ -13,8 +13,8 @@ const Project = ({ project }) => {
     return (
 
         <div className="container d-flex my-5">
-            <div className="row">
-                <div className="col-md-6">
+            <div className="row border border-secondary rounded p-5">
+                <div className="col-md-6 ">
                     <h1>{title}</h1>
                     <p>{shortDetails}</p>
                     <ul>
@@ -32,18 +32,13 @@ const Project = ({ project }) => {
                     <a href={repo} target="_blank" className="btn btn-outline-dark font-weight-bold">
                         <FontAwesomeIcon icon={faGithub} /><span className="ml-2">GitHub</span>
                     </a>
-            </div>
-
-                <div className="col-md-6 projectImg animate__animated animate__fadeInRight animate__slow ">
-                    <img src={image} className="mt-5 img-fluid trans-card " alt="" />
                 </div>
 
-
-
+                <div className="col-md-6 projectImg animate__animated animate__fadeInRight animate__slow ">
+                    <a href={live} target="_blank"><img src={image} className="mt-5 img-fluid trans-card " alt="" /></a>
+                </div>
 
             </div>
-
-
         </div>
 
 

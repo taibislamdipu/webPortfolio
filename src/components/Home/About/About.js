@@ -15,7 +15,7 @@ const About = () => {
     return (
 
         <div>
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             
             <div className="container">
                 <a class="btn btn-secondary mt-5" href={resumeDonwloadLink} target="_blank">

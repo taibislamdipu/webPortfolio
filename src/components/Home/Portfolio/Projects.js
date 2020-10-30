@@ -1,48 +1,9 @@
 import React from 'react';
 import Project from './Project';
 
-
-import reactLogo from '../../../images/logo/react-logo.png';
-import firebaseLogo from '../../../images/logo/firebase-logo.png';
-import mongoDBLogo from '../../../images/logo/mongoDB-logo.png';
-import herokuLogo from '../../../images/logo/heroku.png';
-import bootstrapLogo from '../../../images/logo/bootstrap-logo.png';
-import htmlLogo from '../../../images/logo/html5.png';
-import cssLogo from '../../../images/logo/css3.png';
-import jsLogo from '../../../images/logo/JavaScript-logo.png';
-import apiLogo from '../../../images/logo/api.png';
-import materialuiLogo from '../../../images/logo/material-ui.png';
-import nodeLogo from '../../../images/logo/nodeJs-logo.png';
-
-
-
-
 import creativeAgency from '../../../images/React-Creative-Agency-App-Web.png';
-
-
-import travelGuru from '../../../images/React-Travel-Guru-2.png';
 import travelGuruWeb from '../../../images/react-travel-guru-2-web.png';
-
-
-
-import webportfolio from '../../../images/web-portfolio-assingment.png';
-import panda from '../../../images/Panda-Commerce.png';
-import hotGaget from '../../../images/Hot-Gadgets.png';
-import khasfood from '../../../images/Khaasfood.png';
-import cardDesign from '../../../images/card-design.png';
-import eSchool from '../../../images/E-School-Resources.png';
-import eBank from '../../../images/Pioneer-Bank.png';
-import calculator from '../../../images/Basic-Calculator.png';
-import shoppingCart from '../../../images/Shopping-Cart.png';
-import pinmatcher from '../../../images/Pin-Generator.png';
-import covid19Tracker from '../../../images/covid-19-tracker.png';
-import reactUdemy from '../../../images/react-udemy-app.png';
-import reactSocialBuddy from '../../../images/React-Social-Buddy-App.png';
-import volunteerNetwork from '../../../images/React-Volunteer-Network-App.png';
 import volunteerNetworkWeb from '../../../images/React-Volunteer-Network-App-web.png';
-
-import ultraNation from '../../../images/react-ultra-nation.png';
-
 
 
 const Projects = () => {

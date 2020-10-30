@@ -1,10 +1,10 @@
 import React from 'react';
 import './MainHeader.css'
-import image from '../../../images/taib-islam-dipu.png';
+import image from '../../../images/taib-islam-dipu.jpg';
 import Typical from 'react-typical';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
+import { faCloudDownloadAlt, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { resumeDonwloadLink } from '../../../App';
 
 
@@ -12,7 +12,7 @@ const MainHeader = () => {
 
     return (
 
-        <div className="container">
+        <div className="container ">
             <div className="d-flex" style={{ height: 700 }}>
 
                 <div className="d-flex align-self-center">
@@ -21,11 +21,11 @@ const MainHeader = () => {
 
                         <div className="col-md-10 animate__animated animate__backInLeft animate__slower">
                         
-                            <h4 className="text-secondary ">HELLO, I'M</h4>
+                            <h4>HELLO, I'M</h4>
 
                             <h1 style={{ fontWeight: 700 }}>TAIB ISLAM</h1>
 
-                            <p className="text-secondary">
+                            <p>
                                 {' '}
                                 <Typical
                                     loop={Infinity}
@@ -54,8 +54,11 @@ const MainHeader = () => {
                                 />
                             </p>
 
-                            <a class="btn btn-secondary my-4 " href={resumeDonwloadLink} target="_blank">
+                            <a class="btn btn-primary" href={resumeDonwloadLink} target="_blank">
                                 <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2"> DOWNLOAD RESUME</span>
+                            </a>
+                            <a class="btn btn-success ml-3" href="/contact" target="_blank">
+                                <FontAwesomeIcon icon={faPaperPlane} /><span className="ml-2"> CONTACT ME</span>
                             </a>
                         </div>
 

@@ -128,7 +128,7 @@ const AllProjects = () => {
 
     return (
         <div className="container">
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             <h1 className="text-center py-5 " style={{ fontWeight: 700 }}>ALL PROJECTS</h1>
 
             <div className="row">

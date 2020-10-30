@@ -14,12 +14,16 @@ import Footer from './components/Home/Footer/Footer';
 import Contact from './components/Home/Contact/Contact';
 import About from './components/Home/About/About';
 import AllProjects from './components/Home/Portfolio/AllProjects';
+import Navbar from './components/Home/Navbar/Navbar';
 
 export const resumeDonwloadLink = 'https://drive.google.com/uc?export=download&id=18R-HH0jpsAzKQrvCMnAV53lntssXbtsq'
 
 const App = () => {
   return (
     <Router>
+
+      <Navbar></Navbar>
+
       <Switch>
  
         <Route exact path="/" >
