@@ -14,3 +14,5 @@
 ## Installation Guide
 
 `gh repo clone taibislamdipu/creative-agency-client`
+
+* View Online Resume - https://drive.google.com/file/d/18R-HH0jpsAzKQrvCMnAV53lntssXbtsq/view

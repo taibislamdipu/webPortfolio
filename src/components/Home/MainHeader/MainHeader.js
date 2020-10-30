@@ -20,9 +20,9 @@ const MainHeader = () => {
 
                     <div className="row">
 
-                        <div className="col-md-10">
-
-                            <h4 className="text-secondary">HELLO, I'M</h4>
+                        <div className="col-md-10 animate__animated animate__backInLeft animate__slower">
+                        
+                            <h4 className="text-secondary ">HELLO, I'M</h4>
 
                             <h1 style={{ fontWeight: 700 }}>TAIB ISLAM</h1>
 
@@ -55,12 +55,12 @@ const MainHeader = () => {
                                 />
                             </p>
 
-                            <a class="btn btn-secondary my-4  btn-lg" href={resumeDonwloadLink} target="_blank">
+                            <a class="btn btn-secondary my-4 " href={resumeDonwloadLink} target="_blank">
                                 <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2"> DOWNLOAD RESUME</span>
                             </a>
                         </div>
 
-                        <div className="col-md-2" >
+                        <div className="col-md-2 animate__animated animate__backInRight animate__slower" >
                             <img src={image} alt="" style={{ height: 300 }} className="rounded-circle" />
                         </div>
 

@@ -18,7 +18,7 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-md-7 mb-5">
                         <h2>Please send your text here</h2>
-                        <div className="contact-form">
+                        <div className="contact-form animate__animated animate__fadeInLeft animate__slow">
                             <MyForm></MyForm>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const Contact = () => {
                         <h3>You also find me in -</h3>
                         <hr />
 
-                        <div className="mt-4">
+                        <div className="mt-4 animate__animated animate__fadeInRight animate__slow">
                             <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Jatrabari, Dhaka-1236, Bangladesh.</p>
                             <p><FontAwesomeIcon icon={faPhoneAlt} /> +8801675884882</p>
                             <p><FontAwesomeIcon icon={faEnvelope} /> mailtaibislam@gmail.com</p>

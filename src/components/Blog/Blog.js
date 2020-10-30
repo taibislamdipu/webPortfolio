@@ -10,7 +10,7 @@ const Blog = ({ blog }) => {
     return (
         <div className="container d-flex my-5">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 animate__animated animate__fadeInLeft animate__slow">
                     <h2>{title}</h2>
                     <p className="text-secondary">{subheading}</p>
                     <p className="text-secondary" style={{ fontSize: '12px' }}>{publishDate}</p>
@@ -19,8 +19,8 @@ const Blog = ({ blog }) => {
                     </a>
                 </div>
 
-                <div className="col-md-6 projectImg">
-                    <img src={image} className=" img-fluid mt-3" alt="" />
+                <div className="col-md-6 projectImg animate__animated animate__fadeInRight animate__slow">
+                    <img src={image} className="img-fluid mt-3 card " alt="" />
                 </div>
             </div>
         </div>

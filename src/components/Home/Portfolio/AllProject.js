@@ -10,8 +10,8 @@ const AllProject = ({ allProject }) => {
 
     return (
         <div className="container">
-            <div class="card mb-5">
-                <img src={image} class="card-img-top" alt="..." />
+            <div class="card mb-5 ">
+                <img src={image} class="card-img-top trans-card" alt="..." />
                 <div class="card-body">
                     <h1 class="card-title">{title}</h1>
                     <p class="card-text">{shortDetails}</p>

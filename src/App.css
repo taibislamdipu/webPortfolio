@@ -13,3 +13,17 @@ body{
   background-color: #F9F9F8;
 }
 
+
+/* For card animation start*/
+.trans-card {
+  transition: 0.4s;
+}
+
+.trans-card:hover {
+  transform: translateY(-1rem);
+}
+/* For card animation end*/
+
+.skill-icon{
+  width: 2rem;
+}

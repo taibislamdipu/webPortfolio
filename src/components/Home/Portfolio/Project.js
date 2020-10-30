@@ -34,8 +34,8 @@ const Project = ({ project }) => {
                     </a>
             </div>
 
-                <div className="col-md-6 projectImg">
-                    <img src={image} className="mt-5 img-fluid card" alt="" />
+                <div className="col-md-6 projectImg animate__animated animate__fadeInRight animate__slow ">
+                    <img src={image} className="mt-5 img-fluid trans-card " alt="" />
                 </div>
 
 
