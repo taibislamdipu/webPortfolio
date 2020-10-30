@@ -10,7 +10,6 @@ const Header = () => {
         <Parallax bgImage={image2} strength={500}>
             <Navbar></Navbar>
             <MainHeader></MainHeader>
-
         </Parallax>
     );
 };

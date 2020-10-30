@@ -1,42 +1,16 @@
 import React from 'react';
 
-import reactLogo from '../../../images/logo/react-logo.png';
-import firebaseLogo from '../../../images/logo/firebase-logo.png';
-import mongoDBLogo from '../../../images/logo/mongoDB-logo.png';
-import herokuLogo from '../../../images/logo/heroku.png';
-import bootstrapLogo from '../../../images/logo/bootstrap-logo.png';
-import htmlLogo from '../../../images/logo/html5.png';
-import cssLogo from '../../../images/logo/css3.png';
-import jsLogo from '../../../images/logo/JavaScript-logo.png';
-import apiLogo from '../../../images/logo/api.png';
-import materialuiLogo from '../../../images/logo/material-ui.png';
-import nodeLogo from '../../../images/logo/nodeJs-logo.png';
-
-
-import creativeAgency from '../../../images/React-Creative-Agency-App-Web.png';
-
-import travelGuru from '../../../images/React-Travel-Guru-2.png';
-import travelGuruWeb from '../../../images/react-travel-guru-2-web.png';
-
-import webportfolio from '../../../images/web-portfolio-assingment.png';
 import panda from '../../../images/Panda-Commerce.png';
 import hotGaget from '../../../images/Hot-Gadgets.png';
 import khasfood from '../../../images/Khaasfood.png';
 import cardDesign from '../../../images/card-design.png';
 import eSchool from '../../../images/E-School-Resources.png';
 import eBank from '../../../images/Pioneer-Bank.png';
-import calculator from '../../../images/Basic-Calculator.png';
-import shoppingCart from '../../../images/Shopping-Cart.png';
 import pinmatcher from '../../../images/Pin-Generator.png';
 import covid19Tracker from '../../../images/covid-19-tracker.png';
-import reactUdemyWeb from '../../../images/react-udemy-app-web.png';
-
 import reactSocialBuddy from '../../../images/React-Social-Buddy-App.png';
-import volunteerNetwork from '../../../images/React-Volunteer-Network-App.png';
-import volunteerNetworkWeb from '../../../images/React-Volunteer-Network-App-web.png';
-
+import emaJohn from '../../../images/ema-john.png';
 import burjAlArab from '../../../images/burj-al-arab.png';
-
 import ultraNation from '../../../images/react-ultra-nation.png';
 import Navbar from '../Navbar/Navbar';
 import AllProject from './AllProject';
@@ -87,6 +61,14 @@ const AllProjects = () => {
             repo: 'https://github.com/taibislamdipu/covid19-traker',
             live: 'https://taibislamdipu.github.io/covid19-traker/',
             technology: 'REST API, Bootstrap, HTML, CSS'
+        },
+        {
+            title: 'Ema-John',
+            shortDetails: 'An E-commerce where user can add to cart, check order history, admin can manage inventory and more.',
+            image: emaJohn,
+            repo: 'https://github.com/taibislamdipu/ema-john-simple',
+            live: 'https://pedantic-roentgen-12f04c.netlify.app/',
+            technology: 'React, Firebase, REST API, Netlify, Heroku, Google Auth, Bootstrap, HTML, CSS'
         },
 
         {

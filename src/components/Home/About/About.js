@@ -3,18 +3,13 @@ import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import './About.css';
 
-
-
-
 const About = () => {
-
-
 
     return (
 
         <div>
             <Navbar></Navbar>
-
+            
             <div className="container">
 
                 <section className="about-section first-section">
@@ -172,8 +167,10 @@ const About = () => {
                     </div>
                 </section>
             </div>
+           
 
             <Footer></Footer>
+
         </div>
 
     );

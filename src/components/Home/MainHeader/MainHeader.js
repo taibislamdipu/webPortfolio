@@ -2,7 +2,6 @@ import React from 'react';
 import './MainHeader.css'
 import image from '../../../images/taib-islam-dipu.png';
 import Typical from 'react-typical';
-import { useSpring, animated } from 'react-spring'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
@@ -10,8 +9,7 @@ import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
 
 const MainHeader = () => {
 
-    const props = useSpring({ opacity: 1, from: { opacity: 0 } })
-
+    const resumeDonwloadLink = 'https://drive.google.com/uc?export=download&id=18R-HH0jpsAzKQrvCMnAV53lntssXbtsq'
 
     return (
 
@@ -57,8 +55,7 @@ const MainHeader = () => {
                                 />
                             </p>
 
-                            <a class="btn btn-secondary my-4  btn-lg" href="https://drive.google.com/uc?export=download&id=1l5W9CBDxtmvijn9zlnaX2mopY3PAWh2G" target="_blank">
-
+                            <a class="btn btn-secondary my-4  btn-lg" href={resumeDonwloadLink} target="_blank">
                                 <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2"> DOWNLOAD RESUME</span>
                             </a>
                         </div>

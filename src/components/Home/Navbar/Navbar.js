@@ -1,6 +1,9 @@
 import React from 'react';
 
 const Navbar = () => {
+
+    const resumeOnlineReadable = 'https://drive.google.com/file/d/18R-HH0jpsAzKQrvCMnAV53lntssXbtsq/view?usp=sharing';
+
     return (
         <div className="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent font-weight-bold py-4">
@@ -18,7 +21,7 @@ const Navbar = () => {
                             <a class="nav-link mr-4 text-secondary" href="/blogs">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mr-4 text-secondary" target="_blank" href="https://drive.google.com/file/d/1l5W9CBDxtmvijn9zlnaX2mopY3PAWh2G/view?usp=sharing">RESUME</a>
+                            <a class="nav-link mr-4 text-secondary" target="_blank" href={resumeOnlineReadable}>RESUME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mr-4 text-secondary" href="/about">ABOUT ME</a>
