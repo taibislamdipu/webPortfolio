@@ -9,17 +9,15 @@ const About = () => {
 
         <div>
             <Navbar></Navbar>
-            
+
             <div className="container">
 
                 <section className="about-section first-section">
                     <div className="row ">
-                        <div className="col-md-4">
-
+                        <div className="col-md-4 animate__animated animate__fadeInLeftBig animate__slower">
                             <h1>About Me </h1>
-
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 animate__animated animate__fadeInRightBig animate__slower">
                             <p>Front-End Web Developer using React.js with a decent knowledge of the backend technology like Node.js, Express.js, MongoDB, REST-API, JSON, Firebase, Debugging and more.</p>
 
                         </div>
@@ -30,40 +28,74 @@ const About = () => {
 
                 <section className="about-section">
                     <div className="row ">
-                        <div className="col-md-4">
+                        <div className="col-md-4 animate__animated animate__fadeInLeftBig animate__slower">
                             <h2>Skills</h2>
                         </div>
-                        <div className="d-flex">
-                            <div className="col">
-                                <ul>
-                                    <li className="mt-2">React</li>
-                                    <li className="mt-2">Node.js</li>
-                                    <li className="mt-2">Express.js</li>
-                                    <li className="mt-2">MongoDB</li>
-                                    <li className="mt-2">JavaScript</li>
-                                    <li className="mt-2">ES6</li>
-                                    <li className="mt-2">Git</li>
-                                </ul>
-                            </div>
-                            <div className="col">
-                                <ul>
-                                    <li className="mt-2">SASS</li>
-                                    <li className="mt-2">HTML 5</li>
-                                    <li className="mt-2">CSS 3</li>
-                                    <li className="mt-2">Chrome DevTools</li>
-                                </ul>
+                        <div className="col-md-8 animate__animated animate__fadeInRightBig animate__slower">
+                            {/* 1st row */}
+                            <div className="row">
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-react-original colored display-4"></i>
+                                    <h5 className="">React</h5>
+                                </div>
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-nodejs-plain colored display-4"></i>
+                                    <h5 className="">Node.js</h5>
+                                </div>
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-express-original colored display-4"></i>
+                                    <h5 className="">Express.js</h5>
+                                </div>
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-mongodb-plain colored display-4"></i>
+                                    <h5 className="">MongoDB</h5>
+                                </div>
                             </div>
 
-                            <div className="row col-md-5">
-                                <ul>
-                                    <li className="mt-2">Bootstrap 4</li>
-                                    <li className="mt-2">Material-UI</li>
-                                    <li className="mt-2">React-Bootstrap</li>
-                                    <li className="mt-2">UX/UI</li>
-                                    <li className="mt-2">Design Thinking</li>
-                                    <li className="mt-2">Unit Testing</li>
+                            {/* 2nd row */}
+                            <div className="row">
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-javascript-plain colored display-4"></i>
+                                    <h5 className="">JavaScript</h5>
+                                </div>
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-npm-original-wordmark colored display-4"></i>
+                                    <h5 className="">NPM</h5>
+                                </div>
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-git-plain-wordmark colored display-4"></i>
+                                    <h5 className="">Git</h5>
+                                </div>
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-heroku-plain colored display-4"></i>
+                                    <h5 className="">heroku</h5>
+                                </div>
 
-                                </ul>
+                            </div>
+
+                            {/* 3rd row */}
+                            <div className="row">
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-bootstrap-plain colored display-4"></i>
+                                    <h5 className="">Bootstrap 4</h5>
+                                </div>
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-html5-plain-wordmark colored display-4"></i>
+                                    <h5 className="">HTML5</h5>
+                                </div>
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-css3-plain-wordmark colored display-4"></i>
+                                    <h5 className="">CSS3</h5>
+                                </div>
+                                <div className="col flex-column trans-card pb-3">
+                                    <i className="devicon-sass-original colored display-4"></i>
+                                    <h5 className="">Sass</h5>
+                                </div>
+                            </div>
+
+                            {/* 4th row */}
+                            <div className="row">
+
                             </div>
 
 
@@ -81,11 +113,15 @@ const About = () => {
 
                         <div className="col-md-4">
                             <ul>
-                                <li className="mt-2">Agile Development</li>
-                                <li className="mt-2">SEO</li>
+                                <li className="mt-2">Agile Methodology</li>
+                                <li className="mt-2">UX/UI</li>
+                                <li className="mt-2">Debugging</li>
+                                <li className="mt-2">REST APIs</li>
+                                <li className="mt-2">ES6</li>
                                 <li className="mt-2">Google Analytics</li>
                                 <li className="mt-2">Asana</li>
                                 <li className="mt-2">Cyber Security</li>
+                                <li className="mt-2">SEO</li>
                                 <li className="mt-2">Magento 2</li>
 
                             </ul>
@@ -167,7 +203,7 @@ const About = () => {
                     </div>
                 </section>
             </div>
-           
+
 
             <Footer></Footer>
 

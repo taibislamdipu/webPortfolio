@@ -60,8 +60,8 @@ const MainHeader = () => {
                             </a>
                         </div>
 
-                        <div className="col-md-2 animate__animated animate__backInRight animate__slower" >
-                            <img src={image} alt="" style={{ height: 300 }} className="rounded-circle" />
+                        <div className="col-md-2 animate__animated animate__backInRight animate__slower " >
+                            <img src={image} alt="" style={{ height: 300 }} className="rounded-circle trans-card" />
                         </div>
 
                     </div>

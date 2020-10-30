@@ -1,12 +1,12 @@
 
-# 🙋‍♂️ My Web Portfolio with Online Resume.
+# 🙋‍♂️ Web Portfolio of Taib Islam.
 
 ## Tools & Technology
 
 * Language: JavaScript, HTML, CSS
 * Framework: React.js, Bootstrap
-* Libraries: Create-React-App, React Spring, React Router, React Hook Form.
-* Package: npm package.
+* Libraries: Create-React-App, React Spring, React Router, React Hook Form
+* Package: npm package
 * Backend: Node.js, Express.js
 * Database: MongoDB
 * API Host: Heroku 

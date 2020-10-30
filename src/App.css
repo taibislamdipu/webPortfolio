@@ -24,6 +24,7 @@ body{
 }
 /* For card animation end*/
 
-.skill-icon{
-  width: 2rem;
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }
