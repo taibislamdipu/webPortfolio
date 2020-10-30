@@ -15,6 +15,8 @@ import Contact from './components/Home/Contact/Contact';
 import About from './components/Home/About/About';
 import AllProjects from './components/Home/Portfolio/AllProjects';
 
+export const resumeDonwloadLink = 'https://drive.google.com/uc?export=download&id=18R-HH0jpsAzKQrvCMnAV53lntssXbtsq'
+
 const App = () => {
   return (
     <Router>

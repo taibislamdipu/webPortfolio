@@ -1,18 +1,29 @@
+
 import React from 'react';
+
+import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { resumeDonwloadLink } from '../../../App';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import './About.css';
 
 const About = () => {
 
+
     return (
 
         <div>
             <Navbar></Navbar>
-
+            
             <div className="container">
+                <a class="btn btn-secondary mt-5" href={resumeDonwloadLink} target="_blank">
+                    <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2"> DOWNLOAD RESUME</span>
+                </a>
 
                 <section className="about-section first-section">
+
                     <div className="row ">
                         <div className="col-md-4 animate__animated animate__fadeInLeftBig animate__slower">
                             <h1>About Me </h1>

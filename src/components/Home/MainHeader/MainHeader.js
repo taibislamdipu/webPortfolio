@@ -5,11 +5,10 @@ import Typical from 'react-typical';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
+import { resumeDonwloadLink } from '../../../App';
 
 
 const MainHeader = () => {
-
-    const resumeDonwloadLink = 'https://drive.google.com/uc?export=download&id=18R-HH0jpsAzKQrvCMnAV53lntssXbtsq'
 
     return (
 
