@@ -33,7 +33,7 @@ const Contact = () => {
                             <p><FontAwesomeIcon icon={faPhoneAlt} /> +8801675884882</p>
                             <p><FontAwesomeIcon icon={faEnvelope} /> mailtaibislam@gmail.com</p>
 
-                            <a href="https://www.linkedin.com/in/taibislamdipu/" target="_blank" className="btn btn-primary mr-2">
+                            <a href="https://www.linkedin.com/in/taibislamdipu/" target="_blank" className="btn btn-primary mr-2 ">
                                 <FontAwesomeIcon icon={faLinkedin} /><span className="ml-2">LinkedIn</span>
                             </a>
                             <a href="https://github.com/taibislamdipu" target="_blank" className="btn btn-dark mr-2">

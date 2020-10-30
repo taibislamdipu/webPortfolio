@@ -13,6 +13,8 @@ import Blogs from './components/Blog/Blogs';
 import Footer from './components/Home/Footer/Footer';
 import Contact from './components/Home/Contact/Contact';
 import About from './components/Home/About/About';
+import Particle from './components/Particle/Particle';
+import AllProjects from './components/Home/Portfolio/AllProjects';
 
 const App = () => {
   return (
@@ -40,12 +42,22 @@ const App = () => {
           <Contact></Contact>
         </Route>
 
+        <Route path="/allProjects" >
+          <AllProjects></AllProjects>
+        </Route>
+
+        <Route path="/particle" >
+          <Particle></Particle>
+        </Route>
+
         <Route path="*">
           <NoMatch />
         </Route>
 
       </Switch>
     </Router>
+
+
   );
 };
  

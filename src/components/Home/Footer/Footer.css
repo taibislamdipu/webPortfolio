@@ -3,3 +3,11 @@
 footer{
     margin-top: 200px;
 }
+
+.footer-icon{
+    color: #6C757D;
+}
+
+.footer-icon:hover{
+    color: #000;
+}

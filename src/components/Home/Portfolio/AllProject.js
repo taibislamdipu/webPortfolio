@@ -1,27 +1,21 @@
 import React from 'react';
-import './Project.css';
-import { useSpring, animated } from 'react-spring'
+import Footer from '../Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
-const Project = ({ project }) => {
+const AllProject = ({ allProject }) => {
 
-    const { image, title, keyFeatures1, keyFeatures2, keyFeatures3, shortDetails, repo, live, technology } = project;
+    const { title, image, live, repo, technology, shortDetails } = allProject;
 
     return (
-
-        <div className="container d-flex my-5">
-            <div className="row">
-                <div className="col-md-6">
-                    <h1>{title}</h1>
-                    <p>{shortDetails}</p>
-                    <ul>
-                        <li className="mt-3">{keyFeatures1}</li>
-                        <li className="mt-3">{keyFeatures2}</li>
-                        <li className="mt-3">{keyFeatures3}</li>
-                    </ul>
+        <div className="container">
+            <div class="card mb-5">
+                <img src={image} class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h1 class="card-title">{title}</h1>
+                    <p class="card-text">{shortDetails}</p>
                     <div>
                         <p><span style={{ fontWeight: 'bold' }}>Build With: </span>{technology}</p>
                     </div>
@@ -32,22 +26,10 @@ const Project = ({ project }) => {
                     <a href={repo} target="_blank" className="btn btn-outline-dark font-weight-bold">
                         <FontAwesomeIcon icon={faGithub} /><span className="ml-2">GitHub</span>
                     </a>
-            </div>
-
-                <div className="col-md-6 projectImg">
-                    <img src={image} className="mt-5 img-fluid card" alt="" />
                 </div>
-
-
-
-
             </div>
-
-
         </div>
-
-
     );
 };
 
-export default Project;
+export default AllProject;

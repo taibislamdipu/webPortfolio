@@ -83,129 +83,7 @@ const Projects = () => {
             live: 'https://react-travel-guru-v2.web.app/',
 
         },
-        // {
-        //     title: 'demo projects3',
-        //     image: reactUdemy,
-        //     repo: 'https://github.com/taibislamdipu/react-udemy-app',
-        //     live: 'https://react-udemy-app.netlify.app/',
-        //     reactLogo: reactLogo,
-        //     apiLogo: apiLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: reactSocialBuddy,
-        //     repo: 'https://github.com/taibislamdipu/react-social-buddy',
-        //     live: 'https://react-social-buddy-app.netlify.app/',
-        //     reactLogo: reactLogo,
-        //     materialuiLogo: materialuiLogo,
-        //     apiLogo: apiLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: ultraNation,
-        //     repo: 'https://github.com/taibislamdipu/react-ultra-nation-v2',
-        //     live: 'https://react-ultra-nation-v2.netlify.app/',
-        //     reactLogo: reactLogo,
-        //     materialuiLogo: materialuiLogo,
-        //     apiLogo: apiLogo,
-        // },
-        // {
-        //     title: 'webportfolio',
-        //     image: webportfolio,
-        //     repo: 'https://github.com/taibislamdipu/web-portfolio',
-        //     live: 'https://taibislamdipu.github.io/web-portfolio/',
-        //     htmlLogo: htmlLogo,
-        //     cssLogo: cssLogo,
-        //     bootstrapLogo: bootstrapLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: panda,
-        //     repo: 'https://github.com/taibislamdipu/panda-commerce',
-        //     live: 'https://taibislamdipu.github.io/panda-commerce/',
-        //     htmlLogo: htmlLogo,
-        //     cssLogo: cssLogo,
-        //     bootstrapLogo: bootstrapLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: hotGaget,
-        //     repo: 'https://github.com/taibislamdipu/hot-gadgets',
-        //     live: 'https://taibislamdipu.github.io/hot-gadgets/index.html',
-        //     htmlLogo: htmlLogo,
-        //     cssLogo: cssLogo,
-        //     bootstrapLogo: bootstrapLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: khasfood,
-        //     repo: 'https://github.com/taibislamdipu/khaasfood',
-        //     live: 'https://taibislamdipu.github.io/khaasfood/index.html',
-        //     htmlLogo: htmlLogo,
-        //     cssLogo: cssLogo,
-        //     bootstrapLogo: bootstrapLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: cardDesign,
-        //     repo: 'https://github.com/taibislamdipu/react-pixelstrap',
-        //     live: 'https://taibislamdipu.github.io/react-pixelstrap/index.html',
-        //     htmlLogo: htmlLogo,
-        //     cssLogo: cssLogo,
-        //     bootstrapLogo: bootstrapLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: eSchool,
-        //     repo: 'https://github.com/taibislamdipu/e-school-resources',
-        //     live: 'https://taibislamdipu.github.io/e-school-resources/index.html',
-        //     htmlLogo: htmlLogo,
-        //     cssLogo: cssLogo,
-        //     bootstrapLogo: bootstrapLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: eBank,
-        //     repo: 'https://github.com/taibislamdipu/pioneer-bank',
-        //     live: 'https://taibislamdipu.github.io/pioneer-bank/index.html',
-        //     htmlLogo: htmlLogo,
-        //     cssLogo: cssLogo,
-        //     bootstrapLogo: bootstrapLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: calculator,
-        //     repo: 'https://github.com/taibislamdipu/calculator',
-        //     live: 'https://taibislamdipu.github.io/calculator/index.html',
-        //     jsLogo: jsLogo,
-        //     htmlLogo: htmlLogo,
-        //     cssLogo: cssLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: shoppingCart,
-        //     repo: 'https://github.com/taibislamdipu/shopping-cart',
-        //     live: 'https://taibislamdipu.github.io/shopping-cart/index.html',
-        //     htmlLogo: htmlLogo,
-        //     cssLogo: cssLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: pinmatcher,
-        //     repo: 'https://github.com/taibislamdipu/pin-matcher',
-        //     live: 'https://taibislamdipu.github.io/pin-matcher/index.html',
-        //     htmlLogo: htmlLogo,
-        //     cssLogo: cssLogo,
-        // },
-        // {
-        //     title: 'demo projects3',
-        //     image: covid19Tracker,
-        //     repo: 'https://github.com/taibislamdipu/covid19-traker',
-        //     live: 'https://taibislamdipu.github.io/covid19-traker/',
-        //     apiLogo: apiLogo,
-        //     htmlLogo: htmlLogo,
-        //     cssLogo: cssLogo,
-        // },
+
     ]
 
 
@@ -213,16 +91,16 @@ const Projects = () => {
 
         <div className="container">
 
-            <h1 className="text-center py-5 " style={{ fontWeight: 700 }}>OWN PROJECTS  {/* {fakeData.length} */}</h1>
+            <h1 className="text-center py-5 " style={{ fontWeight: 700 }}>OWN PROJECTS</h1>
 
             <div className="row mb-5" id="my-work">
                 {
                     fakeData.map(project => <Project project={project}></Project>)
                 }
-
-                <button className="btn btn-success w-100 font-weight-bold">VIEW ALL PROJECTS</button>
             </div>
-
+            <div>
+                <a href="/allProjects" className="btn btn-success w-100 font-weight-bold">VIEW ALL PROJECTS</a>
+            </div>
         </div>
     );
 };

@@ -15,13 +15,13 @@ const Footer = () => {
                     <p className="text-secondary"><FontAwesomeIcon icon={faCopyright} /> TAIB ISLAM DIPU {new Date().getFullYear()}</p>
                 </div>
                 <div>
-                    <a href="https://www.linkedin.com/in/taibislamdipu/" target="_blank" className=" ml-4">
+                    <a href="https://www.linkedin.com/in/taibislamdipu/" target="_blank" className=" ml-4 footer-icon">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <a href="https://github.com/taibislamdipu" target="_blank" className=" ml-4">
+                    <a href="https://github.com/taibislamdipu" target="_blank" className=" ml-4 footer-icon">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a href="https://twitter.com/taibislamdipu" target="_blank" className="ml-4">
+                    <a href="https://twitter.com/taibislamdipu" target="_blank" className="ml-4 footer-icon">
                         <FontAwesomeIcon icon={faTwitter} />
                     </a>
                 </div>
