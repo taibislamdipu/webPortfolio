@@ -30,13 +30,13 @@ const Contact = () => {
                             <a href="mailto:mailtaibislam@gmail.com"><p><FontAwesomeIcon icon={faEnvelope} /> mailtaibislam@gmail.com</p></a>
 
                             <a href="https://www.linkedin.com/in/taibislamdipu/" target="_blank" className="btn btn-primary mr-2 ">
-                                <FontAwesomeIcon icon={faLinkedin} /><span className="ml-2">LinkedIn</span>
+                                <FontAwesomeIcon icon={faLinkedin} /><span className="ml-2 font-weight-bold">LinkedIn</span>
                             </a>
                             <a href="https://github.com/taibislamdipu" target="_blank" className="btn btn-dark mr-2">
-                                <FontAwesomeIcon icon={faGithub} /><span className="ml-2">GitHub</span>
+                                <FontAwesomeIcon icon={faGithub} /><span className="ml-2 font-weight-bold">GitHub</span>
                             </a>
-                            <a href="https://twitter.com/taibislamdipu" target="_blank" className="btn btn-outline-primary mr-2">
-                                <FontAwesomeIcon icon={faTwitter} /><span className="ml-2">Twitter</span>
+                            <a href="https://twitter.com/taibislamdipu" target="_blank" className="btn btn-primary mr-2">
+                                <FontAwesomeIcon icon={faTwitter} /><span className="ml-2 font-weight-bold">Twitter</span>
                             </a>
                         </div>
                     </div>

@@ -34,7 +34,7 @@ export default class MyForm extends React.Component {
                     <textarea class="form-control" type="text" name="massage" id="text" rows="3" placeholder="Your message here" required></textarea>
                 </div>
 
-                {status === "SUCCESS" ? <p style={{ color: "green" }}>Thanks!</p> : <button className="btn btn-primary" type="submit">Submit</button>}
+                {status === "SUCCESS" ? <p style={{ color: "green" }}>Thanks!</p> : <button className="btn btn-primary font-weight-bold" type="submit">Submit</button>}
                 {status === "ERROR" && <p style={{ color: "red" }}>Ooops! There was an error.</p>}
             </form>
         );

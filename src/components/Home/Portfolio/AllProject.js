@@ -4,6 +4,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
+
 const AllProject = ({ allProject }) => {
 
     const { title, image, live, repo, technology, shortDetails } = allProject;
@@ -18,13 +19,13 @@ const AllProject = ({ allProject }) => {
                     <div>
                         <p><span style={{ fontWeight: 'bold' }}>Build With: </span>{technology}</p>
                     </div>
-                    <a href={live} target="_blank" className="btn btn-outline-info mr-3 font-weight-bold">
-                        <FontAwesomeIcon icon={faGlobe} /><span className="ml-2">Website</span>
+                    <a href={live} target="_blank" className="btn btn-primary mr-2 font-weight-bold">
+                            <FontAwesomeIcon icon={faGlobe} /><span className="ml-2">Website</span>
 
-                    </a>
-                    <a href={repo} target="_blank" className="btn btn-outline-dark font-weight-bold">
-                        <FontAwesomeIcon icon={faGithub} /><span className="ml-2">GitHub</span>
-                    </a>
+                        </a>
+                    <a href={repo} target="_blank" className="btn btn-dark mr-2 font-weight-bold">
+                            <FontAwesomeIcon icon={faGithub} /><span className="ml-2">GitHub</span>
+                        </a>
                 </div>
             </div>
         </div>

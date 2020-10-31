@@ -19,17 +19,19 @@ import Navbar from './components/Home/Navbar/Navbar';
 export const resumeDonwloadLink = 'https://drive.google.com/uc?export=download&id=18R-HH0jpsAzKQrvCMnAV53lntssXbtsq'
 
 const App = () => {
+
   return (
+
     <Router>
 
       <Navbar></Navbar>
 
       <Switch>
- 
+
         <Route exact path="/" >
           <Home></Home>
         </Route>
-        
+
         <Route path="/home" >
           <Home></Home>
         </Route>
@@ -61,7 +63,8 @@ const App = () => {
     </Router>
 
 
+
   );
 };
- 
+
 export default App;
