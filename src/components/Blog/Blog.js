@@ -8,7 +8,7 @@ const Blog = ({ blog }) => {
     const { title, image, readmore, subheading, publishDate } = blog;
 
     return (
-        <div className="container d-flex my-5">
+        <div className="container d-flex my-5 p-5 border border-secondary rounded">
             <div className="row">
                 <div className="col-md-6 animate__animated animate__fadeInLeft animate__slow">
                     <a href={readmore} target="_blank"><h2>{title}</h2></a>

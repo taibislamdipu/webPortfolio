@@ -1,5 +1,4 @@
 import React from 'react';
-import './MainHeader.css'
 import image from '../../../images/taib-islam-dipu.jpg';
 import Typical from 'react-typical';
 

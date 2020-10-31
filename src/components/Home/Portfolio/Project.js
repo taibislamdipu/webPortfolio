@@ -15,7 +15,7 @@ const Project = ({ project }) => {
         <div className="container d-flex my-5">
             <div className="row border border-secondary rounded p-5">
                 <div className="col-md-6 ">
-                    <h1>{title}</h1>
+                    <a href={live} target="_blank"><h1>{title}</h1></a>
                     <p>{shortDetails}</p>
                     <ul>
                         <li className="mt-3">{keyFeatures1}</li>

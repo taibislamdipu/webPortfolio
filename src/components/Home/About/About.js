@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
+import { faCloudDownloadAlt, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { resumeDonwloadLink } from '../../../App';
@@ -14,12 +14,17 @@ const About = () => {
 
     return (
 
-        <div>
-            {/* <Navbar></Navbar> */}
-            
-            <div className="container">
-                <a class="btn btn-secondary mt-5" href={resumeDonwloadLink} target="_blank">
+        <div>            
+            <div className="container about-container">
+                {/* <a class="btn btn-secondary" href={resumeDonwloadLink} target="_blank">
                     <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2"> DOWNLOAD RESUME</span>
+                </a> */}
+
+                <a class="btn btn-primary" href={resumeDonwloadLink} target="_blank">
+                                <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2"> DOWNLOAD RESUME</span>
+                            </a>
+                <a class="btn btn-success ml-3" href="/contact" target="_blank">
+                    <FontAwesomeIcon icon={faPaperPlane} /><span className="ml-2"> CONTACT ME</span>
                 </a>
 
                 <section className="about-section first-section">
@@ -30,7 +35,6 @@ const About = () => {
                         </div>
                         <div className="col-md-6 animate__animated animate__fadeInRightBig animate__slower">
                             <p>Front-End Web Developer using React.js with a decent knowledge of the backend technology like Node.js, Express.js, MongoDB, REST-API, JSON, Firebase, Debugging and more.</p>
-
                         </div>
                     </div>
                 </section>

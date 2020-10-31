@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../Home/Navbar/Navbar';
 import Blog from './Blog';
+import './Blogs.css';
 
 const Blogs = () => {
 
@@ -25,9 +25,7 @@ const Blogs = () => {
 
     return (
         <div>
-            {/* <Navbar></Navbar> */}
-
-            <div className="container mt-5">
+            <div className="container blog-container">
                 <h1 className="text-center">Blogs</h1>
                 <hr />
             </div>

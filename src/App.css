@@ -1,7 +1,6 @@
 
 
 .app, p, li, h1{
-  /* background-color: #202020; */
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -27,5 +26,9 @@ body{
 a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover{
+  color: #17A2B8;
 }
 

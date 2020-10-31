@@ -12,8 +12,6 @@ import MyForm from './ContactForm';
 const Contact = () => {
     return (
         <div style={{ backgroundColor: '#F9F9F8' }}>
-            {/* <Navbar></Navbar> */}
-
             <div className="container contact-container">
                 <div className="row">
                     <div className="col-md-7 mb-5">
@@ -30,7 +28,7 @@ const Contact = () => {
                         <div className="mt-4 animate__animated animate__fadeInRight animate__slow">
                             <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Jatrabari, Dhaka-1236, Bangladesh.</p>
                             <p><FontAwesomeIcon icon={faPhoneAlt} /> +8801675884882</p>
-                            <p><FontAwesomeIcon icon={faEnvelope} /> mailtaibislam@gmail.com</p>
+                            <a href="mailto:mailtaibislam@gmail.com"><p><FontAwesomeIcon icon={faEnvelope} /> mailtaibislam@gmail.com</p></a>
 
                             <a href="https://www.linkedin.com/in/taibislamdipu/" target="_blank" className="btn btn-primary mr-2 ">
                                 <FontAwesomeIcon icon={faLinkedin} /><span className="ml-2">LinkedIn</span>
