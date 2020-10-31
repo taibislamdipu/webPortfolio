@@ -53,12 +53,14 @@ const MainHeader = () => {
                                 />
                             </p>
 
-                            <a class="btn btn-primary" href={resumeDonwloadLink} target="_blank">
+                            <div >
+                                <a class="btn btn-primary mr-2" href={resumeDonwloadLink} target="_blank">
                                 <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2"> DOWNLOAD RESUME</span>
                             </a>
-                            <a class="btn btn-success ml-3" href="/contact" target="_blank">
+                                <a class="btn btn-success " href="/contact" target="_blank">
                                 <FontAwesomeIcon icon={faPaperPlane} /><span className="ml-2"> CONTACT ME</span>
                             </a>
+                            </div>
                         </div>
 
                         <div className="col-md-2 animate__animated animate__backInRight animate__slower " >

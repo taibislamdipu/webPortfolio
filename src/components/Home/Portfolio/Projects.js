@@ -59,7 +59,7 @@ const Projects = () => {
                     fakeData.map(project => <Project project={project}></Project>)
                 }
             </div>
-            <div>
+            <div >
                 <a href="/allProjects" className="btn btn-success w-100 font-weight-bold">VIEW ALL PROJECTS</a>
             </div>
         </div>

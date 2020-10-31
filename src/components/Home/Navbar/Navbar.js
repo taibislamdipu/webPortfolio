@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
 
-        <div>
+        <div className="container">
 
             <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark py-4">
                 <a class="navbar-brand text-white ml-3 font-weight-bold" href="/">HOME</a>

@@ -24,7 +24,7 @@ const Blogs = () => {
     ]
 
     return (
-        <div>
+        <div className="container">
             <div className="container blog-container">
                 <h1 className="text-center">Blogs</h1>
                 <hr />

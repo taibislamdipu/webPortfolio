@@ -12,11 +12,8 @@ const Home = () => {
 
     return (
         <div>
-
             <Header></Header>
-            {/* <About></About> */}
             <Projects></Projects>
-            {/* <Contact></Contact> */}
             <Footer></Footer>
         </div>
     );

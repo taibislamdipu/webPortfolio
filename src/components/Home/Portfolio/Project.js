@@ -12,7 +12,8 @@ const Project = ({ project }) => {
 
     return (
 
-        <div className="container d-flex my-5">
+        <div className="container">
+            <div className="container d-flex my-5">
             <div className="row border border-secondary rounded p-5">
                 <div className="col-md-6 ">
                     <a href={live} target="_blank"><h1>{title}</h1></a>
@@ -39,6 +40,7 @@ const Project = ({ project }) => {
                 </div>
 
             </div>
+        </div>
         </div>
 
 

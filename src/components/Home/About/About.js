@@ -14,16 +14,13 @@ const About = () => {
 
     return (
 
-        <div>            
+        <div>
             <div className="container about-container">
-                {/* <a class="btn btn-secondary" href={resumeDonwloadLink} target="_blank">
-                    <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2"> DOWNLOAD RESUME</span>
-                </a> */}
 
-                <a class="btn btn-primary" href={resumeDonwloadLink} target="_blank">
-                                <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2"> DOWNLOAD RESUME</span>
-                            </a>
-                <a class="btn btn-success ml-3" href="/contact" target="_blank">
+                <a class="btn btn-primary mr-2" href={resumeDonwloadLink} target="_blank">
+                    <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2"> DOWNLOAD RESUME</span>
+                </a>
+                <a class="btn btn-success " href="/contact" target="_blank">
                     <FontAwesomeIcon icon={faPaperPlane} /><span className="ml-2"> CONTACT ME</span>
                 </a>
 
