@@ -14,7 +14,7 @@ const MainHeader = () => {
             <div className="d-flex" style={{ height: 700 }}>
                 <div className="d-flex align-self-center">
                     <div className="row">
-                        <div className="col-md-10 animate__animated animate__backInLeft animate__slower">                        
+                        <div className="col-md-10 animate__animated animate__backInLeft animate__slower">
                             <h4>HELLO, I'M</h4>
                             <h1 style={{ fontSize: 50, color: 'white' }} >TAIB ISLAM</h1>
                             <p>
@@ -46,13 +46,17 @@ const MainHeader = () => {
                                 />
                             </p>
 
-                            <div>
-                                <a class="btn btn-primary mr-2" href={resumeDonwloadLink} target="_blank">
-                                    <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2">DOWNLOAD RESUME</span>
-                                </a>
-                                <a class="btn btn-success" href="/contact" target="_blank">
-                                    <FontAwesomeIcon icon={faPaperPlane} /><span className="ml-2">CONTACT ME</span>
-                                </a>
+                            <div className="row">
+                                <div className="col-md-5  py-2">
+                                    <a class="btn btnSubmit" href={resumeDonwloadLink} target="_blank">
+                                        <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2">DOWNLOAD RESUME</span>
+                                    </a>
+                                </div>
+                                <div className="col-md-5  py-2">
+                                    <a class="btn btnContactMe" href="/contact" target="_blank">
+                                        <FontAwesomeIcon icon={faPaperPlane} /><span className="ml-2">CONTACT ME</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 

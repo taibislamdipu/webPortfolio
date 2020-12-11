@@ -12,7 +12,7 @@ const Project = ({ project }) => {
     return (
 
         <div className="container">
-            <div className="container d-flex my-5">
+            <div className="container d-flex my-5" data-aos="fade-up">
                 <div className="row border border-secondary rounded p-5">
                     <div className="col-md-6 ">
                         <a href={live} target="_blank"><h1>{title}</h1></a>
@@ -29,7 +29,7 @@ const Project = ({ project }) => {
                     </div>
 
                     {/* project image code */}
-                    <div className="col-md-6 projectImg animate__animated animate__fadeInRight animate__slow bg-dark rounded">
+                    <div className="col-md-6 projectImg bg-dark rounded">
                         <a href={live} target="_blank"><img src={image} className="mt-5 img-fluid img-thumbnail rounded trans-card " alt="" /></a>
 
                         <div className="text-center my-5">
@@ -42,7 +42,6 @@ const Project = ({ project }) => {
                         </a>
                         </div>
                     </div>
-
 
 
 

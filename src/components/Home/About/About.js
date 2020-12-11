@@ -14,17 +14,30 @@ const About = () => {
 
     return (
 
-        <div>
+        <div >
             <div className="container about-container">
 
-                <a class="btn btn-primary mr-2" href={resumeDonwloadLink} target="_blank">
+                {/* <a class="btn btn-primary mr-2" href={resumeDonwloadLink} target="_blank">
                     <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2"> DOWNLOAD RESUME</span>
                 </a>
                 <a class="btn btn-success " href="/contact" target="_blank">
                     <FontAwesomeIcon icon={faPaperPlane} /><span className="ml-2"> CONTACT ME</span>
-                </a>
+                </a> */}
 
-                <section className="about-section first-section">
+                <div className=" container row" data-aos="fade-down">
+                    <div className="col- py-2">
+                        <a class="btn btnSubmit mr-2" href={resumeDonwloadLink} target="_blank">
+                            <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2">DOWNLOAD RESUME</span>
+                        </a>
+                    </div>
+                    <div className="col- py-2">
+                        <a class="btn btnContactMe" href="/contact" target="_blank">
+                            <FontAwesomeIcon icon={faPaperPlane} /><span className="ml-2">CONTACT ME</span>
+                        </a>
+                    </div>
+                </div>
+
+                <section className="about-section first-section" data-aos="fade-up">
 
                     <div className="row ">
                         <div className="col-md-4 animate__animated animate__fadeInLeftBig animate__slower">
@@ -38,8 +51,8 @@ const About = () => {
 
                 <hr />
 
-                <section className="about-section">
-                    <div className="row ">
+                <section className="about-section" data-aos="fade-up">
+                    <div className="row">
                         <div className="col-md-4 animate__animated animate__fadeInLeftBig animate__slower">
                             <h2>Skills</h2>
                         </div>
@@ -117,7 +130,7 @@ const About = () => {
 
                 <hr />
 
-                <section className="about-section">
+                <section className="about-section" data-aos="fade-up">
                     <div className="row">
                         <div className="col-md-4">
                             <h2>Other Skills</h2>
@@ -143,7 +156,7 @@ const About = () => {
 
                 <hr />
 
-                <section className="about-section">
+                <section className="about-section" data-aos="fade-up">
                     <div className="row">
                         <div className="col-md-4">
                             <h2>Work Experience</h2>
@@ -183,7 +196,7 @@ const About = () => {
 
                 <hr />
 
-                <section className="about-section">
+                <section className="about-section" data-aos="fade-up">
                     <div className="row">
                         <div className="col-md-4">
                             <h2>Education</h2>
@@ -200,7 +213,7 @@ const About = () => {
 
                 <hr />
 
-                <section className="about-section">
+                <section className="about-section" data-aos="fade-up">
                     <div className="row">
                         <div className="col-md-4">
                             <h2>Language</h2>

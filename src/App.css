@@ -10,6 +10,7 @@
 
 body{
   background-color: #F9F9F8;
+  margin-top: 4.5rem;
 }
 
 
@@ -32,3 +33,43 @@ a:hover{
   color: #0069D9;
 }
 
+
+.btnSubmit {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+
+.btnSubmit {
+   padding: 10px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 7px;
+   display: block;
+ }
+
+ .btnSubmit:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.btnContactMe {background-image: linear-gradient(to right, #0fac55 0%, #1ec55e  51%, #14ad4f  100%)}
+
+.btnContactMe {
+   padding: 10px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 7px;
+   display: block;
+ }
+
+ .btnContactMe:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
