@@ -5,6 +5,8 @@ import creativeAgency from '../../../images/React-Creative-Agency-App-Web.png';
 import travelGuruWeb from '../../../images/react-travel-guru-2-web.png';
 import volunteerNetworkWeb from '../../../images/React-Volunteer-Network-App-web.png';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Projects = () => {
 
@@ -60,7 +62,9 @@ const Projects = () => {
                 }
             </div>
             <div >
-                <a href="/allProjects" className="btn btn-success w-100 font-weight-bold">VIEW ALL PROJECTS</a>
+                <a href="/allProjects" className="btn CustomGreenBtn w-100 font-weight-bold">
+                    <span className="mr-2">VIEW ALL PROJECTS</span><FontAwesomeIcon icon={faArrowRight} />
+                </a>
             </div>
         </div>
     );

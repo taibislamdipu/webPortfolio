@@ -75,8 +75,8 @@ const AllProjects = () => {
             title: 'Panda Commerce',
             shortDetails: 'An E-commerce website landing page who sales different types of products. The site is fully responsive and user-friendly interface.',
             image: panda,
-            repo: 'https://github.com/taibislamdipu/panda-commerce',
-            live: 'https://taibislamdipu.github.io/panda-commerce/',
+            repo: 'https://github.com/taibislamdipu/panda-commerce-v2',
+            live: 'https://taibislamdipu.github.io/panda-commerce-v2/',
             technology: 'Bootstrap, HTML, CSS'
 
         },
@@ -84,8 +84,8 @@ const AllProjects = () => {
             title: 'Hot Gadgets',
             shortDetails: 'An E-commerce website landing page who sales different types of products. The site is fully responsive and user-friendly interface.',
             image: hotGaget,
-            repo: 'https://github.com/taibislamdipu/hot-gadgets',
-            live: 'https://taibislamdipu.github.io/hot-gadgets/index.html',
+            repo: 'https://github.com/taibislamdipu/hot-gadgets-v2',
+            live: 'https://taibislamdipu.github.io/hot-gadgets-v2/index.html',
             technology: 'Bootstrap, HTML, CSS'
         },
 
@@ -101,8 +101,8 @@ const AllProjects = () => {
             title: 'E-School Website',
             image: eSchool,
             shortDetails: 'A responsive website design for a online school.',
-            repo: 'https://github.com/taibislamdipu/e-school-resources',
-            live: 'https://taibislamdipu.github.io/e-school-resources/index.html',
+            repo: 'https://github.com/taibislamdipu/e-school-v2',
+            live: 'https://taibislamdipu.github.io/e-school-v2/',
             technology: 'Bootstrap, HTML, CSS'
         },
 

@@ -31,7 +31,7 @@ const About = () => {
                         </a>
                     </div>
                     <div className="col- py-2">
-                        <a class="btn btnContactMe" href="/contact" target="_blank">
+                        <a class="btn CustomGreenBtn" href="/contact" target="_blank">
                             <FontAwesomeIcon icon={faPaperPlane} /><span className="ml-2">CONTACT ME</span>
                         </a>
                     </div>

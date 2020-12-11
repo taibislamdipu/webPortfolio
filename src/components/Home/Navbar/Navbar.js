@@ -1,6 +1,9 @@
 import React from 'react';
 import './Navbar.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
+
 const Navbar = () => {
 
     const resumeOnlineReadable = 'https://drive.google.com/file/d/18R-HH0jpsAzKQrvCMnAV53lntssXbtsq/view?usp=sharing';
@@ -10,8 +13,11 @@ const Navbar = () => {
         <div className="container">
 
             <nav class="navbar fixed-top navbar-expand-lg bg-dark py-4">
-                <a class="navbar-brand ml-3 font-weight-bold nav-link" href="/">HOME</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand font-weight-bold nav-link" href="/">
+                    <FontAwesomeIcon icon={faHome} /><span className="ml-2">HOME</span>
+                </a>
+
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 

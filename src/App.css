@@ -54,9 +54,9 @@ a:hover{
    text-decoration: none;
  }
 
-.btnContactMe {background-image: linear-gradient(to right, #0fac55 0%, #1ec55e  51%, #14ad4f  100%)}
+.CustomGreenBtn {background-image: linear-gradient(to right, #0fac55 0%, #1ec55e  51%, #14ad4f  100%)}
 
-.btnContactMe {
+.CustomGreenBtn {
    padding: 10px;
    text-align: center;
    text-transform: uppercase;
@@ -68,7 +68,7 @@ a:hover{
    display: block;
  }
 
- .btnContactMe:hover {
+ .CustomGreenBtn:hover {
    background-position: right center; /* change the direction of the change here */
    color: #fff;
    text-decoration: none;
