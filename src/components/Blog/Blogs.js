@@ -4,7 +4,7 @@ import './Blogs.css';
 
 const Blogs = () => {
 
-    const fakeData = [
+    const projectData = [
         {
             title: '⚠️ npm ERR! Unexpected end of JSON input while parsing near [Solved]',
             subheading: 'npm cache data occupy some disk space. When this disk space is full, you have to clear the npm cache.',
@@ -32,7 +32,7 @@ const Blogs = () => {
 
             <div>
                 {
-                    fakeData.map(blog => <Blog blog={blog}></Blog>)
+                    projectData.map(blog => <Blog blog={blog}></Blog>)
                 }
             </div>
         </div>

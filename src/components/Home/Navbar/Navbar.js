@@ -6,7 +6,7 @@ import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
 
-    const resumeOnlineReadable = 'https://drive.google.com/file/d/18R-HH0jpsAzKQrvCMnAV53lntssXbtsq/view?usp=sharing';
+    const resumeOnlineReadable = 'https://drive.google.com/file/d/1BIgceXEv8qtjM0U_kXcKpimwQsUuvP0w/view?usp=sharing';
 
     return (
 

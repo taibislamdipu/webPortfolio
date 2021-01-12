@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 
 .app, p, li, h1{
   font-family: 'Montserrat', sans-serif;

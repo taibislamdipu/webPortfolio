@@ -20,7 +20,7 @@ import Footer from '../Footer/Footer';
 
 const AllProjects = () => {
 
-    const fakeData = [
+    const projectData = [
 
         {
             title: ' Khaasfood | Online Grocery shop in Bangladesh',
@@ -133,7 +133,7 @@ const AllProjects = () => {
 
             <div className="row">
                 {
-                    fakeData.map(allProject => <AllProject allProject={allProject}></AllProject>)
+                    projectData.map(allProject => <AllProject allProject={allProject}></AllProject>)
                 }
             </div>
             <Footer></Footer>

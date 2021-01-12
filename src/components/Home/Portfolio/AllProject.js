@@ -11,10 +11,10 @@ const AllProject = ({ allProject }) => {
 
     return (
         <div className="container">
-            <div class="card mb-5 ">
-                <img src={image} class="card-img-top trans-card" alt="..." />
+            <div class="card mb-5" data-aos="fade-up">
+                <a href={live} target="_blank"><img src={image} class="card-img-top trans-card" alt="..." /></a>
                 <div class="card-body">
-                    <h1 class="card-title">{title}</h1>
+                    <a href={live} className="hyper-link" target="_blank"><h1 class="card-title">{title}</h1></a>
                     <p class="card-text">{shortDetails}</p>
                     <div>
                         <p><span style={{ fontWeight: 'bold' }}>Build With: </span>{technology}</p>

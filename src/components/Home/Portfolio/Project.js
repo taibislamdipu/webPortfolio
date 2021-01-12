@@ -15,7 +15,7 @@ const Project = ({ project }) => {
             <div className="container d-flex my-5" data-aos="fade-up">
                 <div className="row border border-secondary rounded p-5">
                     <div className="col-md-6 ">
-                        <a href={live} target="_blank"><h1>{title}</h1></a>
+                        <a className="hyper-link" data-placement="top" title="See Live" href={live} target="_blank"><h1>{title}</h1></a>
                         <p>{shortDetails}</p>
                         <ul>
                             <li className="mt-3">{keyFeatures1}</li>

@@ -15,7 +15,7 @@ const MainHeader = () => {
                 <div className="d-flex align-self-center">
                     <div className="row">
                         <div className="col-md-10 animate__animated animate__backInLeft animate__slower">
-                            <h4>HELLO, I'M</h4>
+                            <h4>👋 HELLO, I'M</h4>
                             <h1 style={{ fontSize: 50, color: 'white' }} >TAIB ISLAM</h1>
                             <p>
                                 {' '}
@@ -23,15 +23,15 @@ const MainHeader = () => {
                                     loop={Infinity}
                                     wrapper='b'
                                     steps={[
-                                        'Font-End Web Developer',
+                                        'Web Developer',
                                         1000,
                                         'Expert in developing',
                                         1000,
-                                        'Single page application',
+                                        'Single page web application',
                                         1000,
                                         'Using...',
                                         1000,
-                                        'React',
+                                        '⚛️ React',
                                         1000,
                                         'Node.js',
                                         1000,

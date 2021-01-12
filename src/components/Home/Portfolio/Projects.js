@@ -10,7 +10,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Projects = () => {
 
-    const fakeData = [
+    const projectData = [
         {
             title: 'Creative Agency',
             image: creativeAgency,
@@ -58,7 +58,7 @@ const Projects = () => {
 
             <div className="row mb-5" id="my-work">
                 {
-                    fakeData.map(project => <Project project={project}></Project>)
+                    projectData.map(project => <Project project={project}></Project>)
                 }
             </div>
             <div >
